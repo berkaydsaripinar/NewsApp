@@ -70,9 +70,9 @@
 			children = (
 				7042D2112875531A005FEB94 /* AppDelegate.swift */,
 				7042D2132875531A005FEB94 /* SceneDelegate.swift */,
-				70E328E12875AF2100205792 /* Model */,
-				70E328DA287583C000205792 /* Views */,
-				70E328D92875838100205792 /* Controllers */,
+				70A736F6288A80C40064A486 /* Model */,
+				70A736F7288A80FF0064A486 /* Views */,
+				70A736F8288AC1FB0064A486 /* Controllers */,
 				7042D21A2875531C005FEB94 /* Assets.xcassets */,
 				7042D21C2875531C005FEB94 /* LaunchScreen.storyboard */,
 				7042D21F2875531C005FEB94 /* Info.plist */,
@@ -81,32 +81,32 @@
 			path = NewsApp;
 			sourceTree = "<group>";
 		};
-		70E328D92875838100205792 /* Controllers */ = {
+		70A736F6288A80C40064A486 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7042D2152875531A005FEB94 /* MainViewController.swift */,
-				70E328E82875D53A00205792 /* NewsViewController.swift */,
+				70E328E62875CD6C00205792 /* NewsManager.swift */,
+				70E328E42875CD4F00205792 /* NewsData.swift */,
 			);
-			name = Controllers;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		70E328DA287583C000205792 /* Views */ = {
+		70A736F7288A80FF0064A486 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				7042D2172875531A005FEB94 /* Main.storyboard */,
 				70E328DB2875956000205792 /* NewsItemTableViewCell.swift */,
 				70E328DC2875956000205792 /* NewsItemTableViewCell.xib */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		70E328E12875AF2100205792 /* Model */ = {
+		70A736F8288AC1FB0064A486 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				70E328E62875CD6C00205792 /* NewsManager.swift */,
-				70E328E42875CD4F00205792 /* NewsData.swift */,
+				7042D2152875531A005FEB94 /* MainViewController.swift */,
+				70E328E82875D53A00205792 /* NewsViewController.swift */,
 			);
-			name = Model;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

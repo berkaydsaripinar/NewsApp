@@ -19,6 +19,3 @@ struct Articles: Codable {
     let urlToImage: String?
     
 }
-
-
-// articles[0].description
