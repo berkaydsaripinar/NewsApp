@@ -11,11 +11,11 @@ class NewsManager {
     
     static let shared = NewsManager()
     
-    let newsAPI = "https://newsapi.org/v2/everything"
-    let apiKey = "Your API"
+    let newsAPI = "https://newsapi.org/v2/top-headlines?"
+    let apiKey = "489e5b6df4784fc29f3e9623a4c8b6b0"
 
     func fetchNEWS(userComplitionHandler: @escaping (Result<[Articles], Error>) -> Void) {
-        let urlString = "\(newsAPI)?q=keyword&apiKey=\(apiKey)"
+        let urlString = "\(newsAPI)?q=Apple&country=us&apiKey=\(apiKey)"
         let url = URL(string: urlString)
         let sesson = URLSession(configuration: .default)
         let task = sesson.dataTask(with: url!) { data, respose, error in

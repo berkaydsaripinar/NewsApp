@@ -34,7 +34,8 @@ class NewsItemTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
+        // Seçilen durum için görünümü yapılandırın
+
     }
     
     func configure(with viewModel:NewsItemTableViewCellViewModel ) {
